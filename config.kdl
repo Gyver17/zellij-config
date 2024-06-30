@@ -521,18 +521,32 @@ themes {
  		white "#FBF1C7"
  		orange "#D65D0E"
  	}
+
+    custom {
+ 		fg "#CDD6F4"
+ 		bg "#1E1E2E"
+ 		black "#43465A"
+        red "#F38BA8"
+ 		green "#A6E3A1"
+ 		yellow "#F9E2AF"
+ 		blue "#87B0F9"
+ 		magenta "#F5C2E7"
+ 		cyan "#94E2D5"
+ 		white "#CDD6F4"
+ 		orange "#D65D0E"
+ 	}
 }
 
 // Choose the theme that is specified in the themes section.
 // Default: 
 //
-theme "kanagawa_dragon" 
+theme "catppuccin-mocha" 
 
 // The name of the default layout to load on startup
 // Default: "work"
 //
 
-// default_layout "work"
+default_layout "work"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
